@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/vibgyor" mode="merge"/>
+    <filter root="/content/vibgyor" mode="merge"/>
+    <filter root="/content/dam/vibgyor" mode="merge">
+        <exclude pattern="/content/dam/vibgyor(/.*)?"/>
+        <include pattern="/content/dam/vibgyor/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/vibgyor/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/vibgyor" mode="merge"/>
+</workspaceFilter>
